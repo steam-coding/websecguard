@@ -1,0 +1,32 @@
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#    <title>SQL 注入测试系统</title>#}
+{#</head>#}
+{#<body>#}
+{#    <h2>🔐 模拟登录页面</h2>#}
+{#    <form method="post">#}
+{#        用户名: <input type="text" name="username"><br><br>#}
+{#        密码: <input type="password" name="password"><br><br>#}
+{#        <input type="submit" value="登录">#}
+{#    </form>#}
+{#    <p>{{ message }}</p>#}
+{#</body>#}
+{#</html>#}
+{#----------------------------------------------------------------------------------#}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSecGuard 登录</title>
+</head>
+<body>
+    <h2>🔐 登录系统</h2>
+    <form method="post">
+        用户名：<input type="text" name="username"><br><br>
+        密码：<input type="password" name="password"><br><br>
+        <input type="submit" value="登录">
+    </form>
+    <p>{{ message }}</p>
+</body>
+</html>
